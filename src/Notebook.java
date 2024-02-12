@@ -10,6 +10,8 @@ public class Notebook {
 
         Scanner input = new Scanner(System.in);
 
+
+        //Class Warmup Practice
         System.out.println(brightGreen + "Hello World!");
         System.out.println(red + "We are in Week 4!");
         System.out.println(cyan + "This is fun!");
@@ -17,7 +19,9 @@ public class Notebook {
         String name = input.nextLine();
 
         System.out.println(purple + "Your name is " + name + ".");
-    }
+    }//end main Method
 
-
-}
+    public static void myMethod(String colour, String str){
+        System.out.println(colour + str);
+    }//end myMethod
+}//end Class
